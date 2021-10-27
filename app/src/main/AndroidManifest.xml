@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".menus.videokajian.DetailVideoKajianActivity"></activity>
+        <activity android:name=".menus.dzikir.DzikirActivity"></activity>
+        <activity android:name=".menus.dzikir.DetailDzikirActivity" />
+        <activity android:name=".menus.videokajian.DetailVideoKajianActivity" />
         <activity android:name=".menus.doa.ListDoaActivity" />
         <activity android:name=".menus.doa.DetailDoaActivity" />
         <activity android:name=".menus.videokajian.MenuVideoKajianActivity" />

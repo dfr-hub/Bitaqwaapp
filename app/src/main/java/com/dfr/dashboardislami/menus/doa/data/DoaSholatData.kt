@@ -1,6 +1,6 @@
 import com.dfr.dashboardislami.menus.doa.model.DoaModel
 
-object DoaSholatData {
+object  DoaSholatData {
 
     private val doaTitle = arrayOf(
         "Doa sebelum wudhu",
