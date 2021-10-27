@@ -4,7 +4,6 @@ import android.content.Intent
 import android.icu.text.SimpleDateFormat
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.LinearLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.dfr.dashboardislami.R
 import com.dfr.dashboardislami.dashboard.adapter.InspirationListAdapter
@@ -12,7 +11,7 @@ import com.dfr.dashboardislami.dashboard.data.InspirationData
 import com.dfr.dashboardislami.dashboard.model.InspirationModel
 import com.dfr.dashboardislami.databinding.ActivityDashboardBinding
 import com.dfr.dashboardislami.menus.doa.MenuDoaActivity
-import com.dfr.dashboardislami.menus.dzikir.MenuDzikirActivity
+import com.dfr.dashboardislami.menus.dzikir.DzikirActivity
 import com.dfr.dashboardislami.menus.jadwalsholat.MenuJadwalSholatActivity
 import com.dfr.dashboardislami.menus.videokajian.MenuVideoKajianActivity
 import com.dfr.dashboardislami.menus.zakat.MenuDzakatActivity
@@ -51,7 +50,7 @@ class  DashboardActivity : AppCompatActivity() {
         }
 
         binding.ivIconMenuDzikir.setOnClickListener {
-            startActivity(Intent(this, MenuDzikirActivity::class.java))
+            startActivity(Intent(this, DzikirActivity::class.java))
         }
 
         binding.ivIconMenuJadwalSholat.setOnClickListener {
