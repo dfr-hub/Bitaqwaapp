@@ -11,15 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".menus.dzikir.DzikirActivity"></activity>
-        <activity android:name=".menus.dzikir.DetailDzikirActivity" />
+        <activity android:name=".menus.dzikir.DetailDzikirActivity"></activity>
+        <activity
+            android:name=".menus.videokajian.FullScreen"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout" />
+        <activity android:name=".menus.dzikir.MenuDzikirActivity" />
+        <activity android:name=".menus.dzikir.DzikirActivity" />
         <activity android:name=".menus.videokajian.DetailVideoKajianActivity" />
         <activity android:name=".menus.doa.ListDoaActivity" />
         <activity android:name=".menus.doa.DetailDoaActivity" />
         <activity android:name=".menus.videokajian.MenuVideoKajianActivity" />
         <activity android:name=".menus.zakat.MenuDzakatActivity" />
         <activity android:name=".menus.jadwalsholat.MenuJadwalSholatActivity" />
-        <activity android:name=".menus.dzikir.MenuDzikirActivity" />
         <activity android:name=".menus.doa.MenuDoaActivity" />
         <activity android:name=".dashboard.DashboardActivity">
             <intent-filter>

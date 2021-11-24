@@ -11,7 +11,7 @@ import com.dfr.dashboardislami.dashboard.data.InspirationData
 import com.dfr.dashboardislami.dashboard.model.InspirationModel
 import com.dfr.dashboardislami.databinding.ActivityDashboardBinding
 import com.dfr.dashboardislami.menus.doa.MenuDoaActivity
-import com.dfr.dashboardislami.menus.dzikir.DzikirActivity
+import com.dfr.dashboardislami.menus.dzikir.MenuDzikirActivity
 import com.dfr.dashboardislami.menus.jadwalsholat.MenuJadwalSholatActivity
 import com.dfr.dashboardislami.menus.videokajian.MenuVideoKajianActivity
 import com.dfr.dashboardislami.menus.zakat.MenuDzakatActivity
@@ -50,7 +50,7 @@ class  DashboardActivity : AppCompatActivity() {
         }
 
         binding.ivIconMenuDzikir.setOnClickListener {
-            startActivity(Intent(this, DzikirActivity::class.java))
+            startActivity(Intent(this, MenuDzikirActivity::class.java))
         }
 
         binding.ivIconMenuJadwalSholat.setOnClickListener {

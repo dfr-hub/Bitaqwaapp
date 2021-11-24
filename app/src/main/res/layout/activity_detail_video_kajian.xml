@@ -11,26 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar_detail_video_kajian"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
-            android:paddingBottom="1dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
-            app:title="Detail Video Kajian"
-            app:titleTextAppearance="@style/ToolbarAppearance"
-            app:titleTextColor="@color/colorWhite" />
 
         <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
             android:id="@+id/player_video"
             android:layout_width="match_parent"
             android:layout_height="250dp"
             app:autoPlay="false"
-            android:paddingTop="58dp"
 
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
